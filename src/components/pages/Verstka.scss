@@ -1,0 +1,63 @@
+$bg-color: #000000;
+$main-text: #ffffff;
+$hover-effect: #ff0000;
+$bg-btn: #6f2b14;
+$bg-btn-hv: #b77a64;
+
+.wrp {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    &-menu {
+        background-color: $bg-color;
+        display: flex;
+        justify-content: space-between;
+
+        &-list {
+            width: 500px;
+            justify-content: space-between;
+            display: flex;
+            font-weight: 500;
+            font-size: 16px;
+            list-style-type: none;
+            padding: 35px;
+            margin: 0;
+
+            &-el {
+                color: $main-text;
+                cursor: pointer;
+                transition: color 0.5s ease;
+
+                &:hover {
+                    color: $hover-effect;
+                }
+            }
+        }
+
+        &-wrp {
+            align-self: center;
+
+            &-btn {
+                color: $main-text;
+                background-color: $bg-btn;
+                border-radius: 10px;
+                margin-right: 35px;
+                padding: 15px 39px;
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.8s ease, transform 0.8s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                    background-color: $bg-btn-hv;
+                }
+
+                &:active {
+                    background-color: #ff0000;
+                }
+            }
+        }
+    }
+}

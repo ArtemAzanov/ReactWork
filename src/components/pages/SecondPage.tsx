@@ -1,15 +1,19 @@
+import './Verstka.scss';
+
 const SecondPage = () => {
-    return <div>
-        <nav>
-            <ol>
-                <li>Главная</li>
-                <li>О Кино</li>
-                <li>Кадры</li>
-                <li>Персонажи</li>
+    return <div className='wrp'>
+        <header className='header'>
+        <nav className='header-menu'>
+            <ol className='header-menu-list'>
+                <li className='header-menu-list-el'>Главная</li>
+                <li className='header-menu-list-el'>О Кино</li>
+                <li className='header-menu-list-el'>Кадры</li>
+                <li className='header-menu-list-el'>Персонажи</li>
             </ol>
-            <button>Поддержка</button>
+            <div className='header-menu-wrp'>
+            <button className='header-menu-wrp-btn'>Поддержка</button>
+            </div>
         </nav>
-        <header>
             <article>
                 <h1>
                     StarWars
