@@ -1,39 +1,48 @@
 import './Verstka.scss';
-
 const SecondPage = () => {
     return <div className='wrp'>
         <header className='header'>
-        <nav className='header-menu'>
-            <ol className='header-menu-list'>
-                <li className='header-menu-list-el'>Главная</li>
-                <li className='header-menu-list-el'>О Кино</li>
-                <li className='header-menu-list-el'>Кадры</li>
-                <li className='header-menu-list-el'>Персонажи</li>
-            </ol>
-            <div className='header-menu-wrp'>
-            <button className='header-menu-wrp-btn'>Поддержка</button>
-            </div>
-        </nav>
-            <article>
-                <h1>
-                    StarWars
-                    <span>tm</span></h1>
-                <p>Новый приключенческий экшен с несколькими действующими персонажами и разветвленным повествованием, события которого происходят в эпоху расцвета республики – от Quantic Dream и Lucasfilm Games. Находится сейчас на ранней стадии разработки.</p>
-                <button>Посмотреть трейлер</button>
+            <nav className='header-menu'>
+                <ol className='header-menu-list'>
+                    <li className='header-menu-list-el'>Главная</li>
+                    <li className='header-menu-list-el'>О Кино</li>
+                    <li className='header-menu-list-el'>Кадры</li>
+                    <li className='header-menu-list-el'>Персонажи</li>
+                </ol>
+                <div className='header-menu-wrp'>
+                    <button className='header-menu-wrp-btn'>Поддержка</button>
+                </div>
+            </nav>
+            <article className='header-first'>
+                <figure className='header-first-wrp'>
+                    <h1 className='header-first-wrp-title'>Star Warseclipse™</h1>
+                    <p className='header-first-wrp-description'>Новый приключенческий экшен с несколькими действующими персонажами и разветвленным повествованием, события которого происходят в эпоху расцвета республики – от Quantic Dream и Lucasfilm Games. Находится сейчас на ранней стадии разработки.</p>
+                    <div className='header-first-wrp-btn'>
+                        <button className='header-first-wrp-btn-text'>Посмотреть трейлер</button>
+                    </div>
+                </figure>
             </article>
         </header>
-        <main>
-            <article>
-                <h3>Всё ещё не можете определиться с выбором кино?</h3>
-                <button></button>
-                <button>Звёздные войны: Эпизод 1 – Скрытая угроза
-                </button>
-                <button>Звёздные войны:
-                    Эпизод 2 – Атака клонов</button>
-                <button>Звёздные войны: Эпизод 3 – Месть ситхов</button>
-                <button>Звёздные войны: Эпизод 4 – Новая надежда</button>
-                <button>Звёздные войны: Эпизод 5 – Империя наносит ответный...</button>
-                <button></button>
+        <main className='main'>
+            <article className='main-cinema'>
+                <h3 className='main-cinema-title'>Всё ещё не можете определиться с выбором кино?</h3>
+                <div className='rod-glav'>
+                    <div className='rod'>
+                        <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 1 – Скрытая угроза
+                        </h3>
+                    </div>
+                    <div className='rod2'>
+                        <h3 className='main-cinema-picture'>Звёздные войны:
+                            Эпизод 2 – Атака клонов</h3></div>
+                    <div className='rod3'>
+                        <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 3 – Месть ситхов</h3></div>
+                    <div className='rod4'>
+                        <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 4 – Новая надежда</h3></div>
+                    <div className='rod5'>
+                        <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 5 – Империя наносит ответный...</h3></div>
+                </div>
+
+
             </article>
             <figure>
                 <h2>У каждого выбора есть</h2>
@@ -98,15 +107,14 @@ const SecondPage = () => {
         </main>
         <footer>
             <figure>
-                <button><img alt="ttt" /></button>
-                <button><img alt="tt1" /></button>
-                <button><img alt="tt2" /></button>
-                <button><img alt="tt3" /></button>
-                <button><img alt="tt4" /></button>
-                <button><img alt="tt5" /></button>
-                <button><img alt="tt6" /></button>
-                <button><img alt="tt7" /></button>
-                <button><img alt="tt8" /></button>
+                <a href="#">Discord</a>
+                <a href="#">YouTube</a>
+                <a href="#">Facebook</a>
+                <a href="#">Telegram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Reddit</a>
+                <a href="#">Gmail</a>
             </figure>
             <h3>STAR WARS ECLIPSE<span>tm</span></h3>
             <h5>STAR WARS © & ™ Lucasfilm Ltd. All Rights Reserved. © 2023 Quantic Dream.

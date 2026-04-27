@@ -4,6 +4,7 @@ $hover-effect: #ff0000;
 $bg-btn: #6f2b14;
 $bg-btn-hv: #b77a64;
 
+
 .wrp {
     width: 1920px;
     margin: 0 auto;
@@ -60,4 +61,122 @@ $bg-btn-hv: #b77a64;
             }
         }
     }
+
+    &-first {
+        background: url("../../../public/pngs/firstbg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &-wrp {
+            margin: 0;
+            padding: 350px 38px 162px;
+            width: 785px;
+
+            &-title {
+                margin: 0;
+                color: #ffffff;
+                font-size: 70px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            &-description {
+
+                font-size: 22px;
+                color: $main-text
+            }
+
+            &-btn {
+                display: flex;
+                justify-content: center;
+                margin-top: 108px;
+
+
+
+                &-text {
+                    padding: 20px 118px;
+                    background-color: #6f2b14;
+                    color: #ffffff;
+                    border: 0;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: background-color 0.8s ease, transform 0.8s ease;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        background-color: $bg-btn-hv;
+                    }
+
+
+
+                }
+            }
+        }
+    }
+}
+
+.main {
+    background-color: #000000;
+
+    &-cinema {
+
+        &-title {
+            margin: 0 auto;
+            padding: 53px;
+            font-size: 43px;
+            color: #ffffff;
+            width: 914px;
+            text-align: center;
+        }
+
+        &-rod-glav {
+            display: flex; 
+            gap: 20px;  
+
+            &-rod {
+                position: relative;
+                width: 301px;
+            }
+
+            &-picture {
+                position: absolute;
+                background: url(/public/pngs/cinema4.png);
+                
+            }
+
+            &-picture {
+                position: absolute;
+                background: url(/public/pngs/cinema5.png);
+                
+            }
+
+            &-picture {
+                position: absolute;
+                background: url(/public/pngs/cinema3.png);
+                
+            }
+
+            &-picture {
+                position: absolute;
+                background: url(/public/pngs/cinema2.png);
+                
+            }
+
+            &-picture {
+                position: absolute;
+                background: url(/public/pngs/cinema1.png);
+                
+            }
+
+
+
+
+
+        }
+
+
+    
+    }
+
+
 }
