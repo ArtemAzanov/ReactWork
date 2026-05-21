@@ -1,3 +1,4 @@
+import CardCinema from '../components/CardCinema';
 import './Verstka.scss';
 const SecondPage = () => {
     return <div className='wrp'>
@@ -30,16 +31,21 @@ const SecondPage = () => {
                     <div className='rod'>
                         <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 1 – Скрытая угроза
                         </h3>
+                        <CardCinema text='Звёздные войны: Эпизод 1 – Скрытая угроза' url='/pngs/cinema4.png'/>
                     </div>
                     <div className='rod2'>
                         <h3 className='main-cinema-picture'>Звёздные войны:
                             Эпизод 2 – Атака клонов</h3></div>
+                            <CardCinema text='Звёздные войны: Эпизод 2 – Атака клонов' url='/pngs/cinema5.png'/>
                     <div className='rod3'>
                         <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 3 – Месть ситхов</h3></div>
+                        <CardCinema text='Звёздные войны: Эпизод 3 – Месть ситхов' url='/pngs/cinema3.png'/>
                     <div className='rod4'>
                         <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 4 – Новая надежда</h3></div>
+                        <CardCinema text='Звёздные войны: Эпизод 4 – Новая надежда' url='/pngs/cinema2.png'/>
                     <div className='rod5'>
                         <h3 className='main-cinema-picture'>Звёздные войны: Эпизод 5 – Империя наносит ответный...</h3></div>
+                        <CardCinema text='Звёздные войны: Эпизод 5 – Империя наносит ответный...' url='/pngs/cinema1.png'/>
                 </div>
 
 
